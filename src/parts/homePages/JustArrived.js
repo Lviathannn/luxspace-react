@@ -81,7 +81,7 @@ export default function JustArrived() {
                            </h5>
                            <span className="">IDR {item.price}</span>
                            <Link
-                              to={`/details/${item.idc}/products/${item.id}`}
+                              to={`/categories/${item.idc}`}
                               className="stretched-link"
                            ></Link>
                         </div>
